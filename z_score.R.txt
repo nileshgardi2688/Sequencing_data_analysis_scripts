@@ -1,0 +1,3 @@
+x<-read.table("z_score_calculation_input.txt",header=T,row.names=1)
+immu<-sapply(x, function(x) (x-mean(x))/sd(x))
+write.table(immu,"z_score.txt",sep="\t")

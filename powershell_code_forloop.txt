@@ -1,0 +1,2 @@
+ #D:\Backup_90046043\single_cell_sequencing\GSE180665_hepato
+ Get-ChildItem | ForEach-Object{ tar -xvzf $_ }
